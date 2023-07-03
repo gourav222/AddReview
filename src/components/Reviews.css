@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Belanosima&family=Lato&family=Poppins:wght@300;400&family=Roboto:wght@400;700&family=Ubuntu:wght@300;400&display=swap");
+body {
+  background: rgb(75, 75, 105);
+  font-family: "Belanosima", sans-serif;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  margin-top: -1vmax;
+  background: black;
+  width: 101%;
+}
+#header h2 {
+  color: #d2de9b;
+}
+#delete-review img {
+  width: 2vmax;
+  height: 2vmax;
+  cursor: pointer;
+}
+#delete-review {
+  border: none;
+  background: none;
+}
+#single-review {
+  background-color: white;
+  width: 30vmax;
+  border-radius: 0.5vmax;
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  margin-top: 1vmax;
+}
+#title-rating {
+  background-color: rgb(141, 141, 239);
+  border-radius: 0.5vmax;
+  width: 28vmax;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vmax;
+  align-items: center;
+  margin: 0 0 0 0.6vmax;
+  box-sizing: border-box;
+}
+#rating {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+#description {
+  width: 28vmax;
+  margin: 0 0 1vmax 1vmax;
+}
+#description h4 {
+  margin: 25px 0 5px 0;
+}
+#all-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#create-review {
+  width: 30vmax;
+  background-color: white;
+  border-radius: 0.5vmax;
+  margin-top: 0.5vmax;
+  padding: 1vmax;
+}
+#buttons button {
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+  padding: 6px;
+  border-radius: 5px;
+}
+#commet {
+  margin: 1vmax 0 0 0;
+  padding: 0.5vmax;
+  width: 95%;
+}
+#title-to-review {
+  width: 95%;
+  height: 1vmax;
+  padding: 0.5vmax;
+}
+#submit {
+  background-color: rgb(42, 153, 42);
+}
+#reset {
+  background-color: rgb(49, 49, 242);
+}
+#valid-title {
+  color: red;
+}
